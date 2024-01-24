@@ -1,5 +1,7 @@
 import "./App.css";
-import React,{useState} from "react";;
+import React,{useState} from "react";
+import moment from 'moment';
+import 'moment/locale/fr';
 
 function App() {
 const [weigth,setWeight] = useState("");
